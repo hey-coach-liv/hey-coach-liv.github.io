@@ -6,7 +6,7 @@ const LINKS = {
   coaching: STUDIO + "coaching.html",
   packages: STUDIO + "coaching.html#packages",
   shop: STUDIO + "shop.html",
-  firstYear: STUDIO + "shop.html#first-year",
+  firstYear: "https://forms.gle/zMGZJQcMr5tQE6yZ8",
   stories: STUDIO + "stories.html",
   instagram: "https://www.instagram.com/hey.coach.liv/",
   tiktok: "https://www.tiktok.com/@hey.coach.liv",
