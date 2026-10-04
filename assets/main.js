@@ -2,6 +2,7 @@
 const STUDIO = "/studio/";
 const LINKS = {
   studio: STUDIO,
+  book30: "https://calendly.com/oyong-work/30min",
   coaching: STUDIO + "coaching.html",
   packages: STUDIO + "coaching.html#packages",
   shop: STUDIO + "shop.html",
