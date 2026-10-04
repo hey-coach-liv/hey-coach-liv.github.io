@@ -141,9 +141,9 @@
 .logo-row li { opacity: 0.9; transition: opacity 0.2s ease; }
 .logo-row li:hover { opacity: 1; }
 .logo-row img { filter: brightness(0) invert(1); width: auto; }
-.logo-spc { height: 72px; }
+.logo-spc { height: 46px; filter: none !important; }
 .logo-ss { height: 36px; }
-.logo-gb { display: inline-flex; align-items: center; gap: 14px; font-family: "Montserrat", sans-serif; font-size: 1.5rem; letter-spacing: 0.02em; }
+.logo-gb { display: inline-flex; align-items: center; gap: 14px; font-family: "Poppins", sans-serif; font-size: 1.5rem; letter-spacing: 0.02em; }
 .logo-gb img { height: 42px; }
 @media (max-width: 600px) { .logo-row { flex-direction: column; gap: 44px; } .logo-gb { font-size: 1.25rem; } }
 @media (prefers-reduced-motion: reduce) { .marquee .track { animation: none; } }
