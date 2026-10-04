@@ -147,3 +147,7 @@
 .logo-gb img { height: 42px; }
 @media (max-width: 600px) { .logo-row { flex-direction: column; gap: 44px; } .logo-gb { font-size: 1.25rem; } }
 @media (prefers-reduced-motion: reduce) { .marquee .track { animation: none; } }
+
+.social-btn { display: grid; place-items: center; width: 56px; height: 56px; border: 1.5px solid var(--ink); border-radius: 50%; color: var(--ink); transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease; }
+.social-btn svg { width: 22px; height: 22px; }
+.social-btn:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--navy); }
