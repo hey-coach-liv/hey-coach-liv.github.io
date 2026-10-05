@@ -10,6 +10,7 @@ const LINKS = {
   stories: STUDIO + "stories.html",
   instagram: "https://www.instagram.com/hey.coach.liv/",
   tiktok: "https://www.tiktok.com/@hey.coach.liv",
+  youtube: "https://www.youtube.com/@OliviaUniStudio",
   email: "mailto:oyong.partner@gmail.com"
 };
 
