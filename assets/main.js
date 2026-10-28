@@ -39,6 +39,16 @@ if (toggle && nav) {
   }));
 }
 
+document.querySelectorAll("a[href^='#']").forEach((a) => a.addEventListener("click", (e) => {
+  const target = document.getElementById(a.getAttribute("href").slice(1));
+  if (!target) return;
+  e.preventDefault();
+  target.scrollIntoView();
+}));
+window.addEventListener("load", () => {
+  if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+});
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) return;
